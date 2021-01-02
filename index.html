@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    function getref() {
+        var url = document.referrer;
+        if (url == "") {
+            url = "我也不知道";
+        }
+        window.alert("來源：" + url);
+    }    
+</script>
+
+<body>
+    <form>
+        <a onclick="getref()">查看來源</a>
+    </form>
+</body>
+
+</html>
